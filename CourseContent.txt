@@ -1,0 +1,78 @@
+Operating System basics:
+------------------------
+Linux Intorudction
+Linux Administration 
+
+Cloud Computing:
+--------------
+Ec2
+VPC
+S3
+rout53
+load balancer F5
+elastic bean stock
+RDS
+SQS
+SNS
+AWS Services
+
+CI/CD 
+------
+Continuous Integration /Continuous Deployment or Continuous Delivery
+Maven--Build Maanagement tool
+Jenkins--It is mandatory
+Cloud Deploy---It is mandatory
+
+Network Introduction:
+--------------------
+Networking related concepts
+
+NoSQL Databases:
+---------------
+Mongodb
+Cassandra
+
+Monitoring Tools:
+------------------
+Nagios Infrastructure monitoting tools 
+Kibana
+Appdynamics
+
+Application memory management tools :
+-------------------------------------
+elk
+
+Virtualization:
+---------------
+Vagrant 
+Docker 
+
+Version Control System:
+------------------------
+Version Control tools introduction
+Git 
+GitHub.
+
+
+Configuration Management Tools:
+-------------------------------
+Chef 
+Puppet
+Ansible 
+SaltStack -optional 
+
+Memory management tools:
+
+
+Deployment tools:
+Apache 
+Jboss 
+tomcat 
+WAS 
+Weblogic
+
+
+ 
+
+
+
