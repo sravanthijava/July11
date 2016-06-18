@@ -19,9 +19,18 @@ AWS Services
 CI/CD 
 ------
 Continuous Integration /Continuous Deployment or Continuous Delivery
-Maven--Build Maanagement tool
-Jenkins--It is mandatory
-Cloud Deploy---It is mandatory
+
+Build Management:
+Ant -Procedural scripting language, It is used for the build, uses build.xml 
+Maven---Build and Project management
+Rational Buiild Forge
+MSBuild--.net application 
+
+Continous Integration tools:
+Jenkins
+Cruise Control
+Team City
+Rational Automation Framework
 
 Network Introduction:
 --------------------
@@ -35,17 +44,20 @@ Cassandra
 Monitoring Tools:
 ------------------
 Nagios Infrastructure monitoting tools 
-Kibana
-Appdynamics
+Zeboss
+Zebbix
+Sensu
 
 Application memory management tools :
 -------------------------------------
 elk
+Appdynamics
 
 Virtualization:
 ---------------
 Vagrant 
 Docker 
+Elastic Container services 
 
 Version Control System:
 ------------------------
@@ -54,12 +66,19 @@ Git
 GitHub.
 
 
-Configuration Management Tools:
+Configuration Management and Server Provisioning tools:
 -------------------------------
-Chef 
-Puppet
+Introduction about 
+
+YAML
+JSON 
+Chef   ----Chef uses Ruby Language(100%),
+            files are known as recipes , all files are extends with .rb
+Puppet----- files are known as manifests, It used puppet domain specific language(DSL) all files are extends with .pp
 Ansible 
 SaltStack -optional 
+
+
 
 Memory management tools:
 
@@ -70,9 +89,6 @@ Jboss
 tomcat 
 WAS 
 Weblogic
-
-
- 
-
-
+Aws Cloud Deploy
+Elastic BeanStalk
 
