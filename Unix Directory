@@ -1,0 +1,46 @@
+Todays'class
+-------------
+We have started discussion about the Unix Operating System.
+Unix operating system introduction
+What is shell
+What is Kernal
+What is Programms and commands and scripts
+
+
+
+Unix Operating System:
+----------------------
+
+/   root directory it is equal  C:/windows
+/bin--Directories which all executables files
+/etc--All coniguration related files will be here
+/sbin
+/ 
+
+
+
+Some of the commands
+unam -q= => Display linux information.
+uname -r  => Display kernal release information
+uptime    shows how long your system is running
+hostname  shows system hostname
+hostname -i   displays the ipaddress of the machine.
+last reboot--Shows system reboot history
+date   shows the current date and time
+cal  shows this month calendar
+w  displays who is in online.
+who am i --who is logged in user
+whoami 
+who
+finger user:  giving complete information about the user.
+
+
+Hardware related commands:
+dmesg  =: detected hardware and boot messages
+cat /proc/cpuinfo  := CPU model
+cat /proc/meminfo  :=hardware memory
+lshw : displays about hardware information
+lsbk-- diplays the block device related information on linux
+free -m used and free memoryin MB
+ls pci
+
