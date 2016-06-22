@@ -1,0 +1,50 @@
+Today's Class
+--------------
+Editors available in the linux operating system.
+
+1) vi
+2) vim
+3) nano
+4) emacs 
+
+File permissions:
+----------------
+f/d/l User group other 
+ -    ---  ---   ---
+
+Tocreateuser:
+useradd
+
+Creating group:
+groupadd
+
+Where can you find the users and groups:
+cat /etc/passwd
+
+
+User:
+chown username filename/directoryname 
+chown username:groupname filename/directoryname
+
+chown username:groupname -R  filename/directoryname 
+chown username:groupname -R filename/directoryname 
+
+/home directory, is one to one User
+/root --- root user home
+
+Giving adming permissions to any user:
+type visudo command and update the file with new users
+
+vi /etc/sudoers file change new users
+
+root    ALL=(ALL)       ALL
+root    ALL=(ALL)       ALL
+sai     ALL=(ALL)       ALL 
+Krishna ALL=(ALL)       ALL 
+
+ALL ====any user can switch to root user
+ALL ====from any terminal you can execute the commands
+ALL ====Any command can be executed by this user.
+
+%testgroup ALL=(ALL)  ALL 
+
