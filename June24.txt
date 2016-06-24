@@ -1,0 +1,82 @@
+In last class we have see the how to give the permissions as well as visudo.
+Till now we have see the file permissions and some of the basic commands:
+Like How to create file using touch commands
+and also we have see some of the editors:
+vi,vim and nano 
+ 
+
+Create the use:
+useradd
+
+create the group
+groupadd 
+
+How to change the permissions 
+chmod a+RWX filename/directoryname
+
+How to change user as well as group
+chown user filename/directoryname 
+
+to change the group
+chgrp groupname filename/directoryname
+
+To change user as well as group in one command
+chown user:group filename/directoryname 
+
+To apply our changes in subfolders as well as files then we have to use below command
+
+chmod a+RWX -R filename/directoryname
+chown user -R filename/directoryname 
+chown user:group -R filename/directoryname 
+
+How to add the user into existing group
+
+usermod -aG test root ----means there is existing test group is there i'm adding te root user to existing test group.
+
+-R means recursivly apply the changes to all the subfolders and files that exists.
+------
+
+we can switch to any user:
+using su - username
+in this case: su - krishna
+              su - sai
+
+
+cat command is to see the content of the file:
+
+vi /etc/sudoers is the file to give permssions to any user:
+
+if you want to give admin permissions to any user you can give like this.
+
+root    ALL=(ALL)       ALL
+robert  ALL=(ALL)       ALL 
+ALL --- This user can login from any terminal
+ALL ----Any user can sudo to this user
+ALL ----Any commmand can be executed by this user.
+
+PWD command is to see the present working directory.
+
+Touch command is to create the files 
+cat command is to see the content of the file
+vi command is to edit the files 
+vim command is also edit the files
+emac command is also edit the files
+nano command is also used to edit the files.
+
+mkdir -- command is to create the new directory 
+cp sourcpath destinationpath      =====command will copy the files from the source location to destination location
+mv sourcepath destinationpath     =====move will move the files from the source location to destination locatin
+cd --- command is used for changing the directory
+cd .. ===command will be used to go to previous directory or parent directory of the current directory.
+
+
+other important directories in linux root directory is /var directory 
+In var directory there log directory this is very useful one we will keep on working or seeing this file.
+
+all the log files we can find here.
+for example there is boot.log which will help us to see what is happening while booting the machine.
+
+Service command:
+----------------
+As we discussed earlier all the services are available in the linux machine in /etc/init.d directory only.
+whatever the services are there you can execute start/stop commands. 
