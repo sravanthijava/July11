@@ -1,0 +1,50 @@
+28-06-2016
+----------
+Service command will help us to start/stop/status/restart the service from any directory.
+If it is new centos versions systemctl is controlling the services which are there in /etc/init.d
+
+ 
+cd /var/log/  directory for log files
+
+Now how can you change the hostname
+[root@ip-172-31-36-18 log]# cat /etc/hostname
+ip-172-31-36-18.us-west-2.compute.internal
+[root@ip-172-31-36-18 log]# hostname
+ip-172-31-36-18.us-west-2.compute.internal
+[root@ip-172-31-36-18 log]# cat /etc/hosts
+
+127.0.0.1   puppetmaster
+
+
+[root@ip-172-31-36-18 log]# cat /etc/sysconfig/network
+NETWORKING=yes
+NOZEROCONF=yes
+HOSTNAME=puppetmaster
+
+[root@ip-172-31-36-18 log]#
+------------------------------
+find command:
+-------------
+
+find / -name puppet.conf(filename)
+find / -name p*
+
+
+Iptables: firewall.
+--------
+127.0.0.1
+http://127.0.0.1:8080
+Tomcat site on your local machine, you would like to give access to any other users 
+service iptables start/stop
+chkconfig iptables on/off
+
+jenkins services: restart
+chkconfig jenkins on/off  
+
+-----------------------
+setting path:
+in Windows:
+set path=
+
+In linux 
+export PATH=
