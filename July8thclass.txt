@@ -1,0 +1,53 @@
+July8thClass:
+-------------
+We have created a git repository as well as github Repository
+
+1) Git Repository
+Steps:
+1) git init 
+2) git status
+3) git add .
+4) git commit -m "adding all the files"
+
+2) Git branches
+Steps
+1)git branch
+2)git branch dev
+3)git branch stg
+4)git branch test
+5)git branch prod
+6)git checkout dev
+touch dev.txt
+git add .
+git commit -m "adding dev.txt on dev branch"
+
+6)git checkout test
+touch test.txt
+git add .
+git commit -m "adding test.txt on test branch"
+
+6)git checkout stg
+touch stg.txt
+git add .
+git commit -m "adding stg.txt on stg branch"
+
+6)git checkout prod
+touch prod.txt
+git add .
+git commit -m "adding prod.txt on prod branch"
+
+7)git checkout master 
+git merge dev
+git merge stg 
+git merge test 
+git merge prod
+All files will be merged to master branch
+
+ 
+8)we've created github account and signin the account 
+9)Created a Github repository(+ symbol).
+
+10)git remote add shellrepo URLofthe_repository
+11)git remote -v (to check wheter remote repository is there or not?)
+12)git pull shellrepo master
+13)git push shellrepo master 
