@@ -1,0 +1,16 @@
+11th July Class:
+----------------
+In last class we have seen how to create the new github repository
+2)cloning the github repository
+3)Adding remote repository to local repository
+4)push the local data to remote repository.
+
+Today we will discuss about the github desktop client 
+once you install the github desktop in our machine we will get two icons
+1)github icon and 2) gitshell icon 
+
+1)Fork the repository 
+2) Git clone you can do it in graphical user interface
+3) update/add/branch do it in the graphical user interface 
+4) pull request (pull)
+5) push or commit (other team member)
